@@ -5,6 +5,17 @@
 ![Domain](https://img.shields.io/badge/Domain-Bioinformatics-blue)
 ![Focus](https://img.shields.io/badge/Focus-Gene%20Expression-purple)
 
+---
+
+## 🎥 Project Presentation
+**Watch the full explanation of our methodology and results here:**
+
+[![Watch Video](https://img.shields.io/badge/▶️_Watch_Presentation_Video-Click_Here-red?style=for-the-badge&logo=youtube)](هنا_حطي_لينك_جوجل_درايف_بتاعك)
+
+*(Click the button above to view the presentation on Google Drive)*
+
+---
+
 ## 📌 Project Overview
 This analysis elucidates the shared biomarkers between **COVID-19 (SARS-CoV-2)** and **Alzheimer’s disease (AD)**. By integrating differential gene expression with pathway enrichment analysis, we identify specific molecular mechanisms that indicate a bidirectional risk between the viral infection and neurodegenerative progression.
 
@@ -21,7 +32,7 @@ Our research highlights two distinct mechanisms driving the co-pathogenesis of t
 ### 2. Inflammatory Dysregulation
 * **Target Gene:** `SERPINA3` (Suppressed ⬇️)
 * **Pathway:** TNF Signaling Pathway
-* **Mechanism:** The suppression of `SERPINA3` correlates with a **hyper-activated TNF signaling pathway**. 
+* **Mechanism:** The suppression of `SERPINA3` correlates with a **hyper-activated TNF signaling pathway**.
 * **Outcome:** The loss of this protease inhibitor fuels the "cytokine storm" via specific chemokines:
     * `Ccl2`
     * `Cxcl1`
@@ -38,12 +49,13 @@ Our research highlights two distinct mechanisms driving the co-pathogenesis of t
 ---
 
 ## 🧠 Conclusion & Therapeutic Implications
-These findings provide molecular evidence that SARS-CoV-2 infection increases neurodegenerative risks through specific, identifiable pathways. 
+These findings provide molecular evidence that SARS-CoV-2 infection increases neurodegenerative risks through specific, identifiable pathways.
 
 The analysis highlights **`ADRA1D`** and **`SERPINA3`** as potential **therapeutic targets** to mitigate post-infectious cognitive decline.
 
 ---
 
 ## 🛠️ Tools & Methods
-* Differential Gene Expression (DGE) Analysis
-* Pathway Enrichment Analysis
+* **Analysis:** R Programming Environment
+* **Data Source:** NCBI GEO Datasets (GSE188847, GSE104704)
+* **Techniques:** Differential Gene Expression (DGE) & Pathway Enrichment Analysis
